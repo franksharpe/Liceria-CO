@@ -5,191 +5,277 @@
     <title>Liceria & Co</title>
 </head>
 <body>
-  
- 
 
+<!--dropdown-->
 <style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #A07F78;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-</style>
-</head>
-<body style="background-color:#A07F78;">
-
-<!--navbar-->
-<div class="navbar">
-  <a href="#top">Home</a>
-  <a href="contact.html">Contact</a>
-  <div class="dropdown">
-    <button class="dropbtn">Pages
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="3.html">Location / Reservations</a>
-      <a href="main.html">main</a>
-    </div>
-  </div> 
-</div>
-
-<!--greyscale and blur img over hover-->
-
-<div class="wrapper">
-  <div class="image">
-    <img class="pasta1" src="pasta.jpg" alt="pasta" height="300" width="300" align="left">
-    <div class="content">
-      <a class="HT" style="text-decoration: none;" align="top"   href="3.html"><p>Click For More Info</p></a>
-    </div>
-  </div>
-</div>
-
-<style>
-  .HT:hover{
-    color: #a87f31;
-    text-decoration: underline;
+  body {
+    font-family: Arial, Helvetica, sans-serif;
   }
-  <style>
-  {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
   
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
   }
-  .wrapper{
-    width: 300px;
-    height: 320px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
-  .image{
-    width: 300px;
-    height: 300px;
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #A07F78;
+  }
+  
+  .dropdown-content {
+    display: none;
     position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
   }
-  .pasta1{
-    width: 100%;
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
-    margin: auto;
+    text-align: left;
   }
-  .content{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.5s;
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
   }
-  .content:hover{
-    opacity: 1;
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
-</style>
+  </style>
+  </head>
+  <body style="background-color:#A07F78;">
+  
+  <!--navbar-->
+  <div class="navbar">
+    <a href="#top">Home</a>
+    <a href="contact.html">Contact</a>
+    <div class="dropdown">
+      <button class="dropbtn">
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="3.html">Location / Reservations</a>
+        <a href="main.html">main</a>
+      </div>
+    </div> 
+  </div>
 
-<!--lasange-->
-<img align="right" height="300" width="300"  style="position: absolute; left: 330px; top: 65px;"  alt="lasange" src="https://www.recipetineats.com/wp-content/uploads/2017/05/Lasagne-recipe-3-main-square.jpg" alt="lasange">
 
-<!--marquee-->
-<marquee class="marquee">
-  <p>hello</p>
-</marquee>
+<!--scroll animation-->
+
+
+<div class="container">
+  <img class="section">
+  <a class="sc" href="#bottom">Awards</a>
+  <img class="imge2" src="logo.jpg" style="width: 300px;height: 300px;">
+ 
+</div>
+<div class="section bg1">
+  <h1 class="revealUp">Animation 1</h1>
+  <a class="HF" style="text-decoration: none; size: 100px;" align="top"   href="3.html"><p>Location/Reservations</p></a>
+</div>
+
+<div class="section bg2">
+  <h1 class="revealUp">Animation 2</h1>
+  <a class="HT" style="text-decoration: none; size: 100px;" align="top"   href="main.html"><p>Menu</p></a>
+</div>
+
+<div class="spacer">
+ <img class="lg" src="logo.jpg" style="width: 300px;height: 300px;">
+ <ol  class="awards" style="color: #A07F78; list-style: lower-roman;">
+ <li>1995 Michelin Star: Awarded for excellence in cuisine, service, and ambiance.</li>
+ <li>1997 James Beard Award: Recognized for outstanding Italian culinary achievements in the United States.</li>
+ <li>2002 Gourmet Italia Award: Presented to restaurants that excel in delivering authentic and innovative Italian flavors.</li>
+ <li>2004 Wine Spectator Award of Excellence: Acknowledged for an impressive wine selection that complements the Italian cuisine.</li>
+ <li>2007 Italian Heritage Award: Honored for preserving and promoting Italian culinary traditions.</li>
+ <li>2010 Golden Olive Branch: A prestigious award for maintaining consistently high-quality olive oil in their dishes.</li>
+ <li>2013 Culinary Innovator Award: Recognized for introducing unique and creative Italian dishes to the culinary world.</li>
+ <li>2015 Dolce Vita Dessert Award: Celebrated for their delectable Italian desserts and pastries.</li>
+ <li>2018 Pasta Perfection Award: Praised for their mastery in crafting and serving perfect pasta dishes.</li>
+ <li>2020 Timeless Elegance Award: Acknowledged for maintaining a classic and sophisticated ambiance that transports diners to Italy.</li>
+ </ol>
+<p class="PP">Privacy Policy</p>
+
+</div>
+
+<script>
+gsap.registerPlugin(ScrollTrigger);
+// REVEAL //
+gsap.utils.toArray(".revealUp").forEach(function (elem) {
+  ScrollTrigger.create({
+    trigger: elem,
+    start: "top 80%",
+    end: "bottom 20%",
+    markers: true,
+    onEnter: function () {
+      gsap.fromTo(
+        elem,
+        { y: 100, autoAlpha: 0 },
+        {
+          duration: 1.25,
+          y: 0,
+          autoAlpha: 1,
+          ease: "back",
+          overwrite: "auto"
+        }
+      );
+    },
+    onLeave: function () {
+      gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+    },
+    onEnterBack: function () {
+      gsap.fromTo(
+        elem,
+        { y: -100, autoAlpha: 0 },
+        {
+          duration: 1.25,
+          y: 0,
+          autoAlpha: 1,
+          ease: "back",
+          overwrite: "auto"
+        }
+      );
+    },
+    onLeaveBack: function () {
+      gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+    }
+  });
+});
+</script>
+
 <style>
-.marquee{
-  40% {-webkit-transform: traslateX(0%);
-  60% {-webkit-transform: traslateX(0%);}
+.HT{
+  left: -100px;
+  top: 100px;
+  font-size: 50px;
+ color: #000000;
+}
+.HT:hover{
+  color: #5c5858;
+  text-decoration: solid
+}
+
+.awards{
+  left: 450px;
+  top: -150px;
+}
+.PP{
+  top: -80px;
+  left: 900px;
+  color: #A07F78;
+  text-decoration: underline;
+}
+
+.lg{
+  left: 100px;
+  top: 100px;
+}
+.container{
+  position: relative;
+}
+.imge2{
+  position: absolute;
+  left: 800px;
+  top: 350px;
+}
+.sc{
+  left: 920px;
+  top: -200px;
+  color: #4b3e3b
+}
+.HF{
+  left: -30px;
+  top: 0px;
+  font-size: 50px;
+ color: #000;
+}
+.HF:hover{
+  color: #5c5858;
+  text-decoration: solid
+}
+
+  @import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+position: relative;
+letter-spacing: 0.04em;
+}
+body {
+font-family: "Signika Negative", sans-serif;
+font-weight: 300;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 30%;
+  background-image: url(438979.jpg);
+}
+.bg1 {
+background-image: url(pasta.jpg),url(Bruschetta.jpg);
+background-position: left, right;
+opacity: 30%;
+background-repeat: no-repeat;
+}
+.bg2 {
+background-color: #333;
+}
+h1 {
+font-size: 40px;
+line-height: 1.2;
+margin: 0;
+}
+.revealUp {
+opacity: 0;
+visibility: hidden;
+}
+.spacer {
+height: 50vh;
+background-color: #000;
 }
 </style>
 
-
-<!--square-->
-<div class="square"></div>
-<style>
-.square{
-  height: 1000px;
-  width: 2000px;
-  background-color: rgb(237, 229, 221);
-  position: fixed;
-  top: 500px;
-  left: 0px;
-}
-</style>
-<!--logo-->
-<img align="center" align="bottom" class="logo" src="logo.jpg" alt="logo" width="300" height="300" />
-<style>
-.logo{
-  position: fixed;
-  top: 500px;
-  left: 500px;
-}
-</style>
 
 <!--text-->
-<div align="right" align="top" class="tx">Liceria & Co</div>
+<div align="right" align="top" class="tx"><a style="text-decoration: none;color: #A07F78;" href="#top">Liceria & Co</a></div>
   <style>
     .tx{
       position: fixed;
@@ -200,6 +286,6 @@ body {
       font-weight: bold;
     }
   </style>
-
+<div id="bottom"></div>
 </body>
 </html>
