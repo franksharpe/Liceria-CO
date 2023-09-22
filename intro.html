@@ -6,6 +6,26 @@
 </head>
 <body>
 
+  <!--google translate-->
+<div class="trasnalte"    id="google_translate_element"></div>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+        );
+    }
+</script>
+
+<script type="text/javascript"
+        src=
+"https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+</script>
+
+
+
 <!--dropdown-->
 <style>
   body {
@@ -77,8 +97,8 @@
   
   <!--navbar-->
   <div class="navbar">
-    <a href="#top">Home</a>
-    <a href="contact.html">Contact</a>
+    <a href="#top"><img style="height: 25px;width: 30px;" src="home.png"></a>
+    <a href="contact.html"><img style="height: 30px;width: 30px;"  src="phone.png"></a>
     <div class="dropdown">
       <button class="dropbtn">
         <i class="fa fa-caret-down"></i>
@@ -96,7 +116,7 @@
 
 <div class="container">
   <img class="section">
-  <a class="sc" href="#bottom">Awards</a>
+  <a class="sc" href="#bottom"><img style="height: 50px; width: 50px;"  src="arrrow.png" alt=""></a>
   <img class="imge2" src="logo.jpg" style="width: 300px;height: 300px;">
  
 </div>
@@ -209,9 +229,8 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
   top: 350px;
 }
 .sc{
-  left: 910px;
+  left: 920px;
   top: -200px;
-  color: #2d1f1f
 }
 .HF{
   left: -80px;
