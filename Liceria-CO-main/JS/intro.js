@@ -1,45 +1,57 @@
-gsap.registerPlugin(ScrollTrigger);
-// REVEAL //
-gsap.utils.toArray(".revealUp").forEach(function (elem) {
-  ScrollTrigger.create({
-    trigger: elem,
-    start: "top 80%",
-    end: "bottom 20%",
-    markers: true,
-    onEnter: function () {
-      gsap.fromTo(
-        elem,
-        { y: 100, autoAlpha: 0 },
-        {
-          duration: 1.25,
-          y: 0,
-          autoAlpha: 1,
-          ease: "back",
-          overwrite: "auto"
-        }
-      );
-    },
-    onLeave: function () {
-      gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
-    },
-    onEnterBack: function () {
-      gsap.fromTo(
-        elem,
-        { y: -100, autoAlpha: 0 },
-        {
-          duration: 1.25,
-          y: 0,
-          autoAlpha: 1,
-          ease: "back",
-          overwrite: "auto"
-        }
-      );
-    },
-    onLeaveBack: function () {
-      gsap.fromTo(elem, { autoAlpha: 1 }, { autoAlpha: 0, overwrite: "auto" });
+
+function checkForVisibility() {
+
+  var headers = document.querySelectorAll(".header");
+
+  headers.forEach(function(header) {
+
+    if (isElementInViewport(header)) {
+
+      header.classList.add("headerVisible");
+
+    } else {
+
+      header.classList.remove("headerVisible");
+
     }
+
   });
-});
 
+}
 
+ 
+
+function isElementInViewport(el) {
+
+  var rect = el.getBoundingClientRect();
+
+ 
+
+  return (
+
+    rect.top >= 0 &&
+
+    rect.left >= 0 &&
+
+    rect.bottom <=
+
+      (window.innerHeight || document.documentElement.clientHeight) &&
+
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+
+  );
+
+}
+
+ 
+
+if (window.addEventListener) {
+
+  addEventListener("DOMContentLoaded", checkForVisibility, false);
+
+  addEventListener("load", checkForVisibility, false);
+
+  addEventListener("scroll", checkForVisibility, false);
+
+}
 
