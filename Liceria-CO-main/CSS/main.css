@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #A07F78;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .tx{
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    color: #A07F78;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .GG{
+    list-style-type: none;
+    font-family: 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 35px;
+    left: 450px;
+  }
+  .bg{
+    position: absolute;
+    align-items: center;
+    top: 50px;
+    left: 300px;
+    opacity: 30%;
+  }
+  .square{
+    height: 100px;
+    width: 2000px;
+    background-color: rgb(237, 229, 221);
+    position: fixed;
+    top: 750px;
+    left: 0px;
+  }
+  .logo{
+    position: fixed;
+    top: 650px;
+    left: 800px;
+  }
+  .gg{
+    position: fixed;
+    top: 785px;
+    left: 1400px;
+    color: #A07F78;
+    }
+  .UI{
+    position: fixed;
+    top: 755px;
+    right: 1450px;
+    color: #A07F78;
+  }
