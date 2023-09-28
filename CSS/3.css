@@ -1,66 +1,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
-  
-  .navbar {
-    overflow: hidden;
-    background-color: #333;
+  .squaress{
+    height: 40px;
+    width: 2000px;
+    background-color: rgb(237, 229, 221);
+    position: fixed;
+    top: 35px;
+    left: 0px;
+  }    
+  .home{
+    position: fixed;
+    top: 40px;
+    left: 20px;
+  }
+  .locaiton{
+    position: fixed;
+    top: 40px;
+    left: 70px;
+  }
+  .olog{
+    position: fixed;
+    top: 10px;
+    left: 1750px;
   }
   
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #A07F78;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
   .mg{
     position: absolute;
     width: 1887px;
@@ -82,7 +46,7 @@ body {
   }
   .logo{
     position: fixed;
-    top: 650px;
+    top: 630px;
     left: 800px;
   }
   .gg{
@@ -104,4 +68,20 @@ body {
     color: #A07F78;
     font-size: 30px;
     font-weight: bold;
+  }
+
+  .details{
+    position: fixed;
+    right: 600px;
+    bottom: 450px;
+    color: black;
+    font-weight: bold;
+  }
+  .sq{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(237, 229, 221);
+    position: absolute;
+    right: 550px;
+    bottom: 420px;
   }
