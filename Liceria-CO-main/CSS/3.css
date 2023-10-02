@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .squaress{
+    height: 40px;
+    width: 2000px;
+    background-color: rgb(237, 229, 221);
+    position: fixed;
+    top: 35px;
+    left: 0px;
+  }    
+  .home{
+    position: fixed;
+    top: 40px;
+    left: 20px;
+  }
+  .locaiton{
+    position: fixed;
+    top: 40px;
+    left: 70px;
+  }
+  .olog{
+    position: fixed;
+    top: 10px;
+    left: 1750px;
+  }
+  
+  .mg{
+    position: absolute;
+    width: 1887px;
+    opacity: 40%;
+  }
+  .pg{
+    position: absolute;
+    top: 100px;
+    left:100px;
+
+  }
+  .square{
+    height: 100px;
+    width: 2000px;
+    background-color: rgb(237, 229, 221);
+    position: fixed;
+    top: 750px;
+    left: 0px;
+  }
+  .logo{
+    position: fixed;
+    top: 630px;
+    left: 800px;
+  }
+  .gg{
+    position: fixed;
+    top: 790px;
+    left: 1400px;
+    color: #A07F78;
+    }
+  .UI{
+    position: fixed;
+    top: 760px;
+    right: 1400px;
+    color: #A07F78;
+  }
+  .tx{
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    color: #A07F78;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .details{
+    position: fixed;
+    right: 610px;
+    bottom: 460px;
+    color: black;
+    font-weight: bold;
+  }
+  .sq{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(237, 229, 221);
+    position: absolute;
+    right: 550px;
+    bottom: 420px;
+  }

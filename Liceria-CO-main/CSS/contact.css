@@ -1,0 +1,66 @@
+.squaress{
+  height: 40px;
+  width: 2000px;
+  background-color: rgb(237, 229, 221);
+  position: absolute;
+  top: 35px;
+  left: 0px;
+}    
+.home{
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+.locaiton{
+  position: absolute;
+  top: 40px;
+  left: 70px;
+}
+.olog{
+  position: absolute;
+  top: 10px;
+  left: 1750px;
+}
+  
+
+  .square{
+    height: 1000px;
+    width: 1000px;
+    background-color: rgb(237, 229, 221);
+    position: fixed;
+    top: 500px;
+    left: 0px;
+  }
+  .square{
+    height: 100px;
+    width: 2000px;
+    background-color: rgb(237, 229, 221);
+    position: fixed;
+    top: 750px;
+    left: 0px;
+  }
+  .logo{
+    position: fixed;
+    top: 650px;
+    left: 800px;
+  }
+  .gg{
+    position: fixed;
+    top: 790px;
+    left: 1400px;
+    color: #A07F78;
+    }
+  .UI{
+    position: fixed;
+    top: 760px;
+    right: 1400px;
+    color: #A07F78;
+  }
+  .tx{
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    color: #A07F78;
+    font-size: 30px;
+    font-weight: bold;
+  }
