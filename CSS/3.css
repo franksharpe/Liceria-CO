@@ -1,6 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
+  .rev{
+    position: absolute;
+    top: 150px;
+    left: 750px;
+
+  }
   .squaress{
     height: 40px;
     width: 2000px;
@@ -72,8 +78,8 @@ body {
 
   .details{
     position: fixed;
-    right: 600px;
-    bottom: 450px;
+    right: 610px;
+    bottom: 460px;
     color: black;
     font-weight: bold;
   }
