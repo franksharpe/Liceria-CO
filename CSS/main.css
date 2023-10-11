@@ -1,3 +1,4 @@
+@media only screen and (min-width: 600px){
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -69,3 +70,91 @@ body {
     top: 5px;
     left: 1730px;
   }
+  .ii{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .footer{
+    display: flex;
+  }
+
+  .GG{
+      min-height: 100vh;
+      padding: 2em;
+      margin: auto;
+      max-width: 800px; 
+  }
+  .bg{
+    position: absolute;
+    align-items: center;
+    top: 110px;
+    left: 0px;
+    opacity: 30%;
+  }
+  .square{
+    height: 0px;
+    width: 0px;
+    background-color: rgb(237, 229, 221);
+    position: fixed;
+    top: 750px;
+    left: 0px;
+  }
+  .logo{
+    position: fixed;
+    top: 700px;
+    left: 800px;
+    opacity: 0%;
+  }
+  .gg{
+    position: fixed;
+    top: 785px;
+    left: 1400px;
+    color: #A07F78;
+    opacity: 0%;
+    }
+  .UI{
+    position: fixed;
+    top: 755px;
+    right: 1450px;
+    color: #A07F78;
+    opacity: 0%;
+  }
+  .squaress{
+    height: 40px;
+    width: 2000px;
+    background-color: rgb(237, 229, 221);
+    position: absolute;
+    top: 15px;
+    left: 0px;
+  }
+  
+  
+  
+  .home{
+    position: absolute;
+    top: 22px;
+    left: 20px;
+  }
+  .locaiton{
+    position: absolute;
+    top: 22px;
+    left: 70px;
+  }
+  .olog{
+    position: absolute;
+    top: 2px;
+    left: 260px;
+  }
+  .ii{
+    width: 100px;
+    height: 100px;
+  }
+}
+
