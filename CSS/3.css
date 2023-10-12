@@ -76,10 +76,10 @@ body {
     }
   .UI{
     position: fixed;
-    top: 760px;
-    right: 1400px;
+    top: 745px;
+    right: 1500px;
     color: #A07F78;
-    font-size: 20px;
+    font-size: 15px;
   }
   .tx{
     position: fixed;

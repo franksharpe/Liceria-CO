@@ -4,11 +4,11 @@
   width: 2000px;
   background-color: rgb(237, 229, 221);
   position: fixed;
-  top: 0px;
+  top: 30px;
   left: 0px;
 }    
 .logo{
-  top: -390px;
+  top: 10px;
   left: 1630px;
   position: absolute;
   height: 200px;
@@ -16,22 +16,22 @@
 }
 .menu{
   position: fixed;
-  top: -310px;
+  top: 40px;
   left: 50px;
   height: 25px;
   width: 25px;
 }
 .table{
   position: fixed;
-  top: -310px;
-  left: 100px;
+  top: 40px;
+  left: 90px;
   height: 25px;
   width: 25px;
 }
 .signup{
   position: fixed;
-  top: -310px;
-  left: 20px;
+  top: 40px;
+  left: 10px;
   height: 25px;
   width: 25px;
 }
