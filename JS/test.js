@@ -8,19 +8,27 @@ window.onclick = function(event) {
   }
 }
 
-function ValidateEmail(inputText)
-{
-var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-if(inputText.value.match(mailformat))
-{
-alert("Valid email address!");
-document.modal-content.email.focus();
-return true;
-}
-else
-{
-alert("You have entered an invalid email address!");
-document.modal-content.email.focus();
-return false;
-}
-}
+function validateform(){  
+  var name=document.myform.email.value;  
+  var password=document.myform.psw.value;  
+    
+  if (name==null || name==""){  
+    alert("Email can't be blank");  
+    return false;  
+  }else if(password.length<6){  
+    alert("Password must be at least 6 characters long.");  
+    return false;  
+    }  
+  }  
+  function validateEmail(inputText) {
+    var mailFormat =  /\S+@\S+\.\S+/;
+    if (inputText.value.match(mailFormat)) {
+      alert("Valid address!");
+      return true;
+    } else {
+      alert("Invalid address!");
+      return false;
+    }
+  }
+  
+  
