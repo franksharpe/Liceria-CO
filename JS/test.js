@@ -10,25 +10,27 @@ window.onclick = function(event) {
 
 function validateform(){  
   var name=document.myform.email.value;  
-  var password=document.myform.psw.value;  
+  var password=document.myform.psw.value;
+  var RepeatPassword=document.myform.psw-repeat.value;
     
-  if (name==null || name==""){  
-    alert("Email can't be blank");  
+  if (password.length<2){  
+    alert("Name can't be shorter than 2 letters ");  
     return false;  
   }else if(password.length<6){  
     alert("Password must be at least 6 characters long.");  
     return false;  
     }  
   }  
-  function validateEmail(inputText) {
-    var mailFormat =  /\S+@\S+\.\S+/;
-    if (inputText.value.match(mailFormat)) {
-      alert("Valid address!");
-      return true;
+  var check = function() {
+    if (document.getElementById('psw').value ==
+      document.getElementById('psw-repeat').value) {
+      document.getElementById('message').style.color = 'green';
+      document.getElementById('message').innerHTML = 'matching passwords';
     } else {
-      alert("Invalid address!");
-      return false;
+      document.getElementById('message').style.color = 'red';
+      document.getElementById('message').innerHTML = 'not matching passwords';
     }
   }
+
   
   
