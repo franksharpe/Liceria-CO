@@ -1,0 +1,342 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+header {
+  height: 200vh;
+}
+
+.container {
+  /* hide fixed overflow contents */
+  clip: rect(0, auto, auto, 0);
+
+  /* does not work if overflow = visible */
+  overflow: hidden;
+
+  /* only works with absolute positioning */
+  position: absolute;
+
+  /* Make sure containers are full-width and height */
+  height: 100%;
+  left: 0;
+  width: 100%;
+  
+  
+  /* safari hack */
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+}
+
+.containers_solid {
+  background: #70a7af;
+  
+  /* position this container at the top of its parent element */
+  top: 0;
+}
+
+.titles_wrapper {
+  position: fixed;
+  display: block;  
+  margin: auto;
+  width: 100%;
+  /* center the text wrapper vertically */
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.titles_wrapper h1 {
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+
+.containers_solid .titles_wrapper h1 {
+  /* the text background */
+  background: url(../CSS/images/438979.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  
+  /* clip the text is possible */
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  /* fallback text color */
+  color: black;
+}
+
+.containers_image {
+  background-image: url(../CSS/images/438979.jpg);
+  background-size:100% auto;
+  background-position: center;
+  background-attachment: fixed;
+  
+  /* position the second container below the first container */
+  top: 100vh;
+}
+
+.containers_image .titles_wrapper h1 {
+  color: #70a7af;
+}
+
+section {
+  min-height: 100vh;
+  padding: 2em;
+  margin: auto;
+  max-width: 800px;
+  background-color: #ffffff;
+}
+
+section h2 {
+  font-family: 'Fraunces', serif;
+  background-color: #ffffff;
+}
+
+section p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  background-color: #ffffff;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px){
+
+.square{
+  height: 60px;
+  width: 2000px;
+  background-color: #efefee;
+  position: fixed;
+  top: -325px;
+  left: 0px;
+}    
+.logo{
+  top: -380px;
+  left: 1630px;
+  position: absolute;
+  height: 200px;
+
+}
+.menu{
+  position: fixed;
+  top: -309px;
+  left: 55px;
+  
+}
+.table{
+  position: fixed;
+  top: -310px;
+  left: 95px;
+  
+}
+.a:hover{
+ color: #381313;
+}
+
+.signup{
+  position: fixed;
+  top: -330px;
+  left: 0px;
+ 
+}
+
+.u{
+  height: 25px;
+  width: 25px;
+}
+
+.b{
+  height: 200px;
+  width: 200px;
+}
+
+.c{
+  height: 25px;
+  width: 25px;
+}
+.d{
+  height: 25px;
+  width: 25px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+
+.square{
+  height: 48px;
+  width: 2000px;
+  background-color: #efefee;
+  position: fixed;
+  top: -154px;
+  left: 0px;
+}    
+.logo{
+  top: -180px;
+  left: 250px;
+  position: absolute;
+  
+}
+.menu{
+  position: fixed;
+  top: -140px;
+  left: 40px;
+  
+}
+.table{
+  position: fixed;
+  top: -140px;
+  left: 70px;
+  
+}
+.a:hover{
+ color: #381313;
+}
+
+.signup{
+  position: fixed;
+  top: -162px;
+  left: -7px;
+  
+}
+
+.u{
+  height: 17px;
+  width: 17px;
+}
+
+.b{
+  height: 120px;
+  width: 120px;
+}
+
+.c{
+  height: 17px;
+  width: 17px;
+}
+.d{
+  height: 17px;
+  width: 17px;
+}
+
+}
+
+
+
+
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #7b7b7b;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
