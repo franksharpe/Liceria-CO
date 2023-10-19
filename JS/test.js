@@ -11,7 +11,6 @@ window.onclick = function(event) {
 function validateform(){  
   var name=document.myform.email.value;  
   var password=document.myform.psw.value;
-  var RepeatPassword=document.myform.psw-repeat.value;
     
   if (password.length<2){  
     alert("Name can't be shorter than 2 letters ");  
@@ -20,6 +19,10 @@ function validateform(){
     alert("Password must be at least 6 characters long.");  
     return false;  
     }  
+
+     // Display a message with the registered name
+     alert (name + " thanks for signing up ") ;
+     window.location.href = "test.html";
   }  
   var check = function() {
     if (document.getElementById('psw').value ==
