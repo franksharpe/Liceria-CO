@@ -115,25 +115,25 @@ section p {
   width: 2000px;
   background-color: #efefee;
   position: fixed;
-  top: -325px;
+  top: -160px;
   left: 0px;
 }    
 .logo{
-  top: -380px;
-  left: 1630px;
+  top: -190px;
+  left: 1050px;
   position: absolute;
-  height: 200px;
+  height: 100px;
 
 }
 .menu{
   position: fixed;
-  top: -309px;
+  top: -145px;
   left: 55px;
   
 }
 .table{
   position: fixed;
-  top: -310px;
+  top: -145px;
   left: 95px;
   
 }
@@ -143,8 +143,8 @@ section p {
 
 .signup{
   position: fixed;
-  top: -330px;
-  left: 0px;
+  top: -153px;
+  left: 14px;
  
 }
 
@@ -154,8 +154,8 @@ section p {
 }
 
 .b{
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 .c{
@@ -254,7 +254,7 @@ input[type=text]:focus, input[type=password]:focus {
 /* Set a style for all buttons */
 button {
   
-  padding: 14px 20px;
+  padding: 0px 0px;
   margin: 8px 0;
   border: none;
   cursor: pointer;

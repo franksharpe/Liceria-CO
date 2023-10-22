@@ -23,23 +23,23 @@ body {
     height: 100px;
     width: 2000px;
     background-color: rgb(237, 229, 221);
-    position: fixed;
+    position: absolute;
     top: 750px;
     left: 0px;
   }
   .logo{
-    position: fixed;
+    position: absolute;
     top: 700px;
     left: 800px;
   }
   .gg{
-    position: fixed;
+    position: absolute;
     top: 785px;
     left: 1400px;
     color: #A07F78;
     }
   .UI{
-    position: fixed;
+    position: absolute;
     top: 755px;
     right: 1450px;
     color: #A07F78;
