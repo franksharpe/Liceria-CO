@@ -1,3 +1,4 @@
+@media only screen and (min-width: 600px){
 .squaress{
   height: 40px;
   width: 2000px;
@@ -10,57 +11,92 @@
   position: absolute;
   top: 40px;
   left: 20px;
+  height: 25px;
+  width: 25px;
 }
 .locaiton{
   position: absolute;
   top: 40px;
   left: 70px;
+  height: 25px;
+  width: 25px;
 }
 .olog{
   position: absolute;
   top: 10px;
   left: 1750px;
+  width: 150px;
+  height: 150px;
 }
   
+.r{
+  height: 25px;
+  width: 25px;
+}
+  
+.b{
+  height: 25px;
+  width: 25px;
+}
 
-  .square{
-    height: 1000px;
-    width: 1000px;
+.o{
+  width: 150px;
+  height: 150px;
+}
+
+.GG{
+  min-height: 100vh;
+  padding: 2em;
+  margin: auto;
+  max-width: 800px; 
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+  .squaress{
+    height: 50px;
+    width: 600px;
     background-color: rgb(237, 229, 221);
-    position: fixed;
-    top: 500px;
+    position: absolute;
+    top: 30px;
     left: 0px;
+  }    
+  .home{
+    position: absolute;
+    top: 40px;
+    left: 20px;
   }
-  .square{
+  .locaiton{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+  }
+  .olog{
+    position: absolute;
+    top: 10px;
+    left: 260px;
+  }
+    
+  .r{
+    height: 30px;
+    width: 30px;
+  }
+    
+  .b{
+    height: 30px;
+    width: 30px;
+  }
+  
+  .o{
+    width: 100px;
     height: 100px;
-    width: 2000px;
-    background-color: rgb(237, 229, 221);
-    position: fixed;
-    top: 750px;
-    left: 0px;
   }
-  .logo{
-    position: fixed;
-    top: 650px;
-    left: 800px;
-  }
-  .gg{
-    position: fixed;
-    top: 790px;
-    left: 1400px;
-    color: #A07F78;
-    }
-  .UI{
-    position: fixed;
-    top: 760px;
-    right: 1400px;
-    color: #A07F78;
-  }
-  .tx{
-    position: fixed;
-    top: 15px;
-    right: 20px;
-    color: #A07F78;
-    font-size: 30px;
-    font-weight: bold;
-  }
+  
+  .GG{
+    min-height: 100vh;
+    padding: 2em;
+    margin: auto;
+    max-width: 800px; 
+}
+}

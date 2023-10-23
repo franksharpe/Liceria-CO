@@ -21,11 +21,11 @@ body {
   }
   .square{
     height: 100px;
-    width: 2000px;
+    width: 1840px;
     background-color: rgb(237, 229, 221);
     position: absolute;
     top: 750px;
-    left: 0px;
+    left: 20px;
   }
   .logo{
     position: absolute;
@@ -46,7 +46,7 @@ body {
   }
   .squaress{
     height: 40px;
-    width: 2000px;
+    width: 1899px;
     background-color: rgb(237, 229, 221);
     position: absolute;
     top: 15px;

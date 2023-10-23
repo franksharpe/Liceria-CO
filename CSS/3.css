@@ -143,7 +143,7 @@ body {
     .olog{
       position: fixed;
       top: 15px;
-      left: 280px;
+      left: 320px;
       height: 50px;
       width: 50px;
     }
@@ -154,8 +154,12 @@ body {
     
     .mg{ 
       position: absolute;
-      width: 1887px;
+      width: 1080px;
       opacity: 40%;
+      height: 896px;
+      left: -355px;
+      top: -10px;
+      
     }
     .pg{
       position: absolute;
@@ -175,21 +179,21 @@ body {
     .logo{
       position: fixed;
       top: 570px;
-      left: 140px;
+      left: 160px;
       width: 100px;
       height: 100px;
     }
     .gg{
       position: fixed;
       top: 608px;
-      left: 270px;
+      left: 300px;
       color: #A07F78;
       font-size: 12px;
       }
     .UI{
       position: fixed;
       top: 595px;
-      left: 12px;
+      left: 20px;
       color: #A07F78;
       font-size: 5px;
     }
