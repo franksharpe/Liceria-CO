@@ -15,8 +15,8 @@ body {
   .bg{
     position: absolute;
     align-items: center;
-    top: 50px;
-    left: 300px;
+    top: 100px;
+    left: 25px;
     opacity: 30%;
   }
   .square{
